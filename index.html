@@ -3,61 +3,60 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyĴM6wuqIj61tLrc4wŜ0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
     <link rel="stylesheet" href="portfolio.css">
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.2/css/all.css" integrity="sha384-vSIIfh2YWi9wW0r9iZe7RJPrKwp6bG+s9QZMoITbCckVJqGCCRhc+cĉNcdpHuYu" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.2/css/all.css" integrity="sha384-vSIIfh2YWi9wW0r9iZe7RJPrKwp6bG+s9QZMoITbCckVJqGCCRhc+ccxNcdpHuYu" crossorigin="anonymous">
 
     <title>Portfolio</title>
   </head>
   <body>
-    <body>
 
-    <nav class="navbar navbar-expand-lg navbar-dark p-2 sticky-top">
+    <nav class="navbar navbar-expand-lg navbar-dark p-3 sticky-top">
         <div class="container">
-            <a href="https://diegorozo1.github.io/portfolio/#" class="d-lg-none navbar-brand"> <img src="./indexx_files/logo.png" width="35%" alt="logo"></a>
-            <button class="navbar-toggler collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#navbar" aria-controls="navbar" aria-expanded="false" aria-label="Toggle navigation">
+            <a href="#" class="d-lg-none navbar-brand"> <img src="logo.png" width="30%" alt="logo"></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbar" aria-controls="navbar" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
             </button>
-            <div class="navbar-collapse collapse" id="navbar" style="">
+            <div class="collapse navbar-collapse" id="navbar">
                 <ul class="navbar-nav m-auto fs-5 text-center">
                   <li class="m-2 nav-item ">
-                    <a class="nav-link" href="https://diegorozo1.github.io/portfolio/#whoami">Who am I?</a>
+                    <a class="nav-link" href="#whoami">Who am I?</a>
                   </li>
                   <li class="m-2 nav-item">
-                    <a class="nav-link" href="https://diegorozo1.github.io/portfolio/#knowledge">My skills</a>
+                    <a class="nav-link" href="#knowledge">My skills</a>
                   </li>
                   <li class="m-2 nav-item">
-                    <a class="nav-link" href="https://diegorozo1.github.io/portfolio/#projects">Projects</a>
+                    <a class="nav-link" href="#projects">Projects</a>
                   </li>
                   <li class="m-2 nav-item">
-                      <a class="nav-link" href="https://diegorozo1.github.io/portfolio/#contactme">Contact me</a>
+                      <a class="nav-link" href="#contactme">Contact me</a>
                   </li>
                 </ul>
             </div>
         </div>
     </nav>
 
-    <main id="whoami" class="p-5 m-3 text-center fst-italic">
+    <main id="whoami" class="p-4 m-3 text-center fst-italic">
         <h1 class="display-4">Hello, world!</h1>
         <p class="lead fs-5">I'm Diego, a self-taught frontend developer looking forward to working with you.</p>
         
-        <img class="d-block mx-auto my-5 img-fluid" src="./indexx_files/avataaars.png" width="250" alt="avatar">
-        <a href="https://diegorozo1.github.io/portfolio/resume.docx" download="resume" class="mx-auto btn btn-dark rounded-pill">View resume</a>
+        <img class="d-block mx-auto my-5 img-fluid" src="avataaars.png" width="300" alt="avatar">
+        <a href="resume.docx" download="resume" class="mx-auto btn btn-dark btn-lg my-2 rounded-pill">View resume</a>
     </main>
 
     <section id="knowledge">
       <div class="container">
-        <h2 class="display-6 fw-bold text-center mb-5">My skills</h2>
+        <h2 class="fw-bold text-center mb-5">My skills</h2>
         <ul class="text-center p-0">
           <div class="row">
-            <li class="h2 mb-5 col-sm-4"> HTML<i id="html" class="mt-3 d-block fab fa-html5 fa-3x"></i></li>
-            <li class="h2 mb-5 col-sm-4"> CSS<i id="css" class="mt-3 d-block  fab fa-css3-alt fa-3x"></i></li>
-            <li class="h2 mb-5 col-sm-4"> Bootstrap<i id="bootstrap" class="mt-3 d-block  fab fa-bootstrap fa-3x"></i></li>
+            <li class="h2 mb-5 col-sm-4"> HTML<i id="html"class="mt-3 d-block fab fa-html5 fa-3x"></i></li>
+            <li class="h2 mb-5 col-sm-4"> CSS<i id="css"class="mt-3 d-block  fab fa-css3-alt fa-3x"></i></li>
+            <li class="h2 mb-5 col-sm-4"> Bootstrap<i id="bootstrap"class="mt-3 d-block  fab fa-bootstrap fa-3x"></i></li>
           </div>
           <div class="row">
-            <li class="h2 mb-5 col-sm-4"> Javascript<i id="javascript" class="mt-3 d-block  fab fa-js-square fa-3x"></i></li>
-            <li class="h2 mb-5 col-sm-4"> React<i id="react" class="mt-3 d-block  fab fa-react fa-3x"></i></li>
-            <li class="h2 mb-5 col-sm-4"> Git<i id="git" class="mt-3 d-block  fab fa-git-alt fa-3x"></i></li>
+            <li class="h2 mb-5 col-sm-4"> Javascript<i id="javascript"class="mt-3 d-block  fab fa-js-square fa-3x"></i></li>
+            <li class="h2 mb-5 col-sm-4"> React<i id="react"class="mt-3 d-block  fab fa-react fa-3x"></i></li>
+            <li class="h2 mb-5 col-sm-4"> Git<i id="git"class="mt-3 d-block  fab fa-git-alt fa-3x"></i></li>
           </div>
         </ul>
       </div>
@@ -65,11 +64,11 @@
 
     <section class="mb-5" id="projects">
       <div class="my-5 text-center container">
-        <h3 class="display-5 fw-bold mb-5">Portfolio</h3>
+        <h3 class="fw-bold mb-5">Portfolio</h3>
         <div id="carousel" class="carousel carousel-dark slide" data-bs-interval="false" data-bs-ride="carousel">
         <div class="carousel-inner">
-            <div class="carousel-item">
-              <img src="./indexx_files/tree1.png" class="img-fluid" alt="">
+            <div class="carousel-item active">
+              <img src="tree1.png" class="img-fluid" alt="">
               <div class="carousel-caption d-md-block">
                 <button class="mb-2 rounded-pill btn-lg btn btn-dark" data-bs-toggle="modal" data-bs-target="#tree">See the project</button>
                 
@@ -95,7 +94,7 @@
               </div>
             </div>
             <div class="carousel-item">
-              <img src="./indexx_files/liquor.png" class="img-fluid" alt="...">
+              <img src="liquor.png" class="img-fluid" alt="...">
               <div class="carousel-caption d-md-block">
                 <button class="mb-2 rounded-pill btn-lg btn btn-dark" data-bs-toggle="modal" data-bs-target="#liquor">See the project</button>
                 <!-- Modal -->
@@ -119,7 +118,7 @@
               </div>
             </div>
             <div class="carousel-item">
-              <img src="./indexx_files/coffee.png" class="img-fluid" alt="...">
+              <img src="coffee.png" class="img-fluid" alt="...">
               <div class="carousel-caption d-md-block">
                 <button class="mb-2 rounded-pill btn-lg btn btn-dark" data-bs-toggle="modal" data-bs-target="#coffee">see the project</button>
                 
@@ -143,8 +142,8 @@
                 </div>
               </div>
             </div>
-            <div class="carousel-item active">
-              <img src="./indexx_files/clothes.png" class="img-fluid" alt="...">
+            <div class="carousel-item">
+              <img src="clothes.png" class="img-fluid" alt="...">
               <div class="carousel-caption d-md-block">
                 <button class="mb-2 rounded-pill btn-lg btn btn-dark" data-bs-toggle="modal" data-bs-target="#bclothes">see the project</button>
                 
@@ -170,11 +169,11 @@
             </div>
 
         </div>
-          <button class="carousel-control-prev" type="button" data-bs-target="#carousel" data-bs-slide="prev">
+          <button class="carousel-control-prev" type="button" data-bs-target="#carousel"  data-bs-slide="prev">
             <span class="carousel-control-prev-icon" aria-hidden="true"></span>
             <span class="visually-hidden">Previous</span>
           </button>
-          <button class="carousel-control-next" type="button" data-bs-target="#carousel" data-bs-slide="next">
+          <button class="carousel-control-next" type="button" data-bs-target="#carousel"  data-bs-slide="next">
             <span class="carousel-control-next-icon" aria-hidden="true"></span>
             <span class="visually-hidden">Next</span>
           </button>
@@ -190,15 +189,15 @@
             <form>
               <div class="mb-4">
                 <label class="fs-4 form-label" for="name">Name</label>
-                <input required="" placeholder="Name" type="text" id="name" class="form-control border border-dark rounded-pill">
+                <input required placeholder="Name" type="text" id="name" class="form-control border border-dark rounded-pill" />
               </div>
               <div class="form-outline mb-4">
                 <label class="fs-4 form-label" for="email">Email address</label>
-                <input required="" placeholder="Email" type="email" id="email" class="form-control border border-dark rounded-pill cc_cursor">
+                <input required placeholder="Email" type="email" id="email" class="form-control border border-dark rounded-pill" />
               </div>
               <div class="form-outline mb-4">
                 <label class="fs-4 form-label" for="message">Message</label>
-                <textarea placeholder="Message" class="form-control border border-dark rounded cc_cursor" required="" id="message" rows="4"></textarea>
+                <textarea placeholder="Message" class="form-control border border-dark rounded" required id="message" rows="4"></textarea>
               </div>
               <button type="submit" class="d-grid gap-2 col-3 mx-auto btn btn-dark btn-lg my-5 rounded-pill">Send</button>
             </form>
@@ -211,12 +210,27 @@
       <footer class="footer text-center text-white">
         <div class="container pt-4">
           <section class="mb-4">
-            <a class="btn btn-lg" href="https://diegorozo1.github.io/portfolio/#" role="button"><i class="fab fa-twitter fa-2x"></i></a>
+            <a
+              class="btn btn-lg"
+              href="#"
+              role="button"
+              ><i class="fab fa-twitter fa-2x"></i
+            ></a>
 
-            <a class="btn btn-lg" href="https://diegorozo1.github.io/portfolio/#" role="button"><i class="fab fa-linkedin fa-2x"></i></a>
+            <a
+              class="btn btn-lg"
+              href="#"
+              role="button"
+              ><i class="fab fa-linkedin fa-2x"></i
+            ></a>
             <!-- Github -->
-            <a class="btn btn-lg" href="https://diegorozo1.github.io/portfolio/#" role="button"><i class="fab fa-github fa-2x"></i></a>
-            <a href="https://diegorozo1.github.io/portfolio/#" class="btn btn-lg"> <i class="fab fa-codepen fa-2x"></i></a>
+            <a
+              class="btn btn-lg"
+              href="#"
+              role="button"
+              ><i class="fab fa-github fa-2x"></i
+            ></a>
+            <a href="#" class="btn btn-lg"> <i class="fab fa-codepen fa-2x"></i></a>
           </section>
         </div>
 
@@ -225,8 +239,6 @@
         </div>
       </footer>
     </footer>
-    <script src="./indexx_files/bootstrap.bundle.min.js.download" integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0" crossorigin="anonymous"></script>
-  
-</body>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js" integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0" crossorigin="anonymous"></script>
   </body>
 </html>
